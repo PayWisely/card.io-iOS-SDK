@@ -1,6 +1,6 @@
 //
 //  CardIOView.h
-//  Version 5.1.0
+//  Version 5.1.0-2-ga2360bc
 //
 //  See the file "LICENSE.md" for the full license governing this code.
 //
@@ -95,6 +95,8 @@
 /// Set this to 0.0 to suppress the display entirely.
 /// Defaults to 1.0.
 @property(nonatomic, assign, readwrite) CGFloat scannedImageDuration;
+
+@property(nonatomic, assign, readwrite) BOOL disableShutterAnimation;
 
 /// Name for orientation change notification.
 extern NSString * const CardIOScanningOrientationDidChangeNotification;
