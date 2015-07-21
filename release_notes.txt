@@ -1,6 +1,12 @@
 card.io iOS SDK release notes
 =============================
 
+5.1.1 (Tues 7/21/2015)
+
+* Expose 'disableShutterAnimation' to allow disabling CardIOView shutter animation
+
+--
+
 5.1.0 (Sun 7/12/2015)
 
 * Update project and sample apps for Xcode 6.4.
