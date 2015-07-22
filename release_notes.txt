@@ -1,6 +1,12 @@
 card.io iOS SDK release notes
 =============================
 
+5.1.2 (Weds 7/22/2015)
+
+* Expose 'cameraGuideFrame' to access guideFrame and 'lineWidth' to adjust guideLineWidth
+
+--
+
 5.1.1 (Tues 7/21/2015)
 
 * Expose 'disableShutterAnimation' to allow disabling CardIOView shutter animation

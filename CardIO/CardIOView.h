@@ -1,6 +1,6 @@
 //
 //  CardIOView.h
-//  Version 5.1.1
+//  Version 5.1.2
 //
 //  See the file "LICENSE.md" for the full license governing this code.
 //
@@ -40,6 +40,8 @@
 /// Alter the card guide (bracket) color. Opaque colors recommended.
 /// Defaults to nil; if nil, will use card.io green.
 @property(nonatomic, retain, readwrite) UIColor *guideColor;
+
+@property(nonatomic, assign, readwrite) CGFloat lineWidth;
 
 /// Set to YES to show the card.io logo over the camera instead of the PayPal logo. Defaults to NO.
 @property(nonatomic, assign, readwrite) BOOL useCardIOLogo;
@@ -123,5 +125,6 @@ extern NSString * const CardIOScanningOrientationAnimationDuration;
 /// The actual camera preview area within the CardIOView. Location is relative to the CardIOView's origin.
 /// You might want to use this, for example, when adjusting your view controller's view layout.
 @property(nonatomic, assign, readonly) CGRect cameraPreviewFrame;
+@property(nonatomic, assign, readonly) CGRect cameraGuideFrame;
 
 @end
